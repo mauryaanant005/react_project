@@ -1,0 +1,78 @@
+.nav {
+  display: flex;
+  background-color: #ffffff9e;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  border-radius: 15px;
+  font-weight: 700;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000; /* Ensures navbar stays on top */
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  font-family: 'Arial', sans-serif; /* Change to your preferred font family */
+  font-style: normal; /* You can set this to italic or oblique if you prefer */
+  font-weight: bold; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-left: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 20px;
+  width: 300px;
+  outline: none;
+  background-color: white;
+  border: 2px solid rgb(19, 18, 18); /* Add or modify this line to change border color */
+  padding: 5px 10px;
+}
+
+.search::placeholder {
+  color: rgba(11, 11, 11, 0.7); /* Change this color as needed */
+}
+
+.navimg {
+  padding: 0 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.b1 {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+  font-family: 'Arial', sans-serif; /* Change to your preferred font family */
+  font-style: normal; /* You can set this to italic or oblique if you prefer */
+  font-weight: bold; 
+}
+
+.b1:hover {
+  background-color: #d2deed;
+}
+
+.lgo {
+  width: 130px;
+  height: 45px;
+  margin-left: 680px;
+}
